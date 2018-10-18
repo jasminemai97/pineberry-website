@@ -1,0 +1,47 @@
+
+
+/* DEBUGGING */
+* {
+    box-sizing: border-box;
+    border-color: palevioletred;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+/* Picks two: body and html */
+body, html {
+    /* Takes whole viewport height */
+    height: 100%; 
+    /* Margin adds space outside the element */
+    margin: 0px 0px 0px 0px; 
+    line-height: 1;
+    /* 
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    */
+}
+
+.box1 {
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    /* margin-top: 250px; */
+    /* margin: 0px; */
+    padding: 0px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 100px;
+
+
+}
+
