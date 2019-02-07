@@ -71,6 +71,17 @@ h1 {
   font-size: 25px;
 }
 
+.hero-text button {
+  border: none;
+  background-color: palevioletred;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.hero-text button:hover {
+  background-color: rgb(178, 219, 247);
+}
+
 #box2 {
   /* border: 3px solid blue; */
   display: flex;
