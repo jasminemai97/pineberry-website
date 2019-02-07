@@ -1,0 +1,73 @@
+
+/* DEBUGGING */
+/* * {
+    box-sizing: border-box;
+    border-color: palevioletred;
+    border-style: dotted;
+    border-width: 1px;
+} */
+
+/* Picks two: body and html */
+body, html {
+    /* Takes whole viewport height */
+    height: 100%; 
+    /* Margin adds space outside the element */
+    margin: 0px 0px 0px 0px; 
+    line-height: 1;
+}
+
+/* .box1 {
+    height: 100%;
+    width: 100%;
+    background: url("../../resources/floral-background.jpg");
+
+      background-repeat: no-repeat;
+      background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .box2 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+h1 {
+    /* margin-top: 250px; */
+    /* margin: 0px; */
+    /* padding: 0px; */
+    /* text-align: center; */
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-weight: 100; */
+    /* font-size: 30px; */
+}
+
+.hero-image {
+  background: url("../../resources/strawberry.gif");
+    background-color: #F9EBEB;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+  height: 100%;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+    left: 50%;
+    top: 50%;
+  text-align: center;
+  transform: translate(-50%, 78%);
+}
+
+.hero-text h1 {
+  color: palevioletred;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
