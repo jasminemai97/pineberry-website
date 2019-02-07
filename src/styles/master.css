@@ -53,7 +53,6 @@ h1 {
     background-color: #F9EBEB;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
   height: 100%;
   position: relative;
 }
@@ -70,4 +69,24 @@ h1 {
   color: palevioletred;
   font-family: 'Quicksand', sans-serif;
   font-size: 25px;
+}
+
+#box2 {
+  /* border: 3px solid blue; */
+  display: flex;
+  height: 100%;
+}
+
+.box2a, .box2b {
+  border: 3px solid green;
+  height: 100%;
+  width: 50%;
+}
+
+.box2a {
+  background: url("../../resources/poke.gif");
+    background-color: #FCFEFB;
+    background-position: center;
+    background-repeat: no-repeat;
+  position: relative;
 }
