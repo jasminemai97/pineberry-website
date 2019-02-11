@@ -127,6 +127,12 @@ h1 {
   text-align: center;
 }
 
+#for-fun p {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 90px;
+  text-align: center;
+}
+
 #myBtn {
   display: none;
   position: fixed;
