@@ -105,29 +105,39 @@ h1 {
 }
 
 .box3a {
-  height: 500px;
-}
-
-.box3a {
   background: url("../../resources/girl.gif");
     background-color: #FEFAFB;
     background-position: center;
     background-repeat: no-repeat;
+  height: 500px;
   position: relative;
 }
 
-#for-fun {
+#box4 {
+  height: 700px;
+}
+
+.box4a {
+  background: url("../../resources/beargur.gif");
+    background-color: #B9F0AC;
+    background-position: center;
+    background-repeat: no-repeat;
+  height: 700px;
+  position: relative;
+}
+
+.for-fun {
   background-color: rgb(179, 215, 248);
   border: 1px solid rgb(179, 215, 248);
 }
 
-#for-fun h1 {
+.for-fun h1 {
   font-family: 'Quicksand', sans-serif;
   line-height: 125px;
   text-align: center;
 }
 
-#for-fun p {
+.for-fun p {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
