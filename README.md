@@ -1,4 +1,4 @@
 # pineberry-website
 
-This is Jasmine Milk Tea
+Jasmine Milk Tea
 Pineberry Website
